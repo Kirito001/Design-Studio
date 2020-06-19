@@ -2,9 +2,9 @@
     <v-app>
 		<Sidebar ref="sidebar" />
 
-        <v-main class="theme-style">
-			<v-img class="shape-top" src="/shape-top.png" width="400"></v-img>
-			<v-img class="shape-bottom" src="/shape-bottom.png" width="520"></v-img>
+        <v-main :style="themeStyle">
+			<img class="shape-top" src="shape-top.png" />
+			<img class="shape-bottom" src="shape-bottom.png" />
 
 			<keep-alive>
 				<router-view></router-view>
@@ -20,7 +20,15 @@ export default {
 	name: "App",
 	components: {
 		Sidebar
-	}
+	},
+	data() {
+		return {
+			themeStyle: {
+				background: `#0052cc url('shape-center.png') calc(6% + 288px) 140px no-repeat`,
+				backgroundSize: '700px'
+			}
+		}
+	},
 };
 </script>
 
@@ -50,12 +58,14 @@ export default {
 	background-size: 700px;
 }
 .shape-top {
+	width: 400px;
 	position: absolute;
 	top: 0;
 	right: 0;
 	pointer-events: none;
 }
 .shape-bottom {
+	width: 520px;
 	position: absolute;
 	bottom: 0;
 	right: 0;
