@@ -35,7 +35,7 @@
             </v-col>
         </v-row>
         <v-divider class="mb-3 mt-8 d-block d-sm-none" dark></v-divider>
-        <v-footer class="transparent d-flex justify-center d-block d-sm-none" padless dark>
+        <v-footer class="transparent d-flex justify-center d-block d-sm-none v-bottom-black-bar" padless dark>
             <v-btn
                 color="#0B59D3"
                 class="rounded-lg mx-2"

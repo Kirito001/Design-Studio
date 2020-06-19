@@ -1,7 +1,7 @@
 <template>
     <v-container class="fill-height justify-between fluid px-lg-12 px-md-12 py-md-6" style="position:inherit">
         <Search />
-        <v-row class="mt-4">
+        <v-row class="mt-4 v-bottom-black-bar">
             <v-col cols="12" sm="6" class="d-flex flex-column align-center px-10" v-for="(item, i) in lists" :key="i">
                 <v-img width="93" :src="require(`../assets/${item.icon}.png`)"></v-img>
                 <p class="text-h5 white--text mb-2 mt-6">{{ item.title }}</p>

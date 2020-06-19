@@ -1,5 +1,6 @@
 <template>
     <v-container class="fill-height fluid px-lg-12 px-md-12 py-md-6" style="position:inherit">
+        <Search />
         <v-sheet color="transparent" dark>
             <p class="text-h4 mt-6">Tell us about your project.</p>
             <p class="mb-10">We want to learn more about your project. Please fill out this form</p>
@@ -64,7 +65,9 @@
                     ></v-checkbox>
                 </v-col>
             </v-row>
-            <p class="mt-10"><v-btn color="#fa992e" width="200" depressed rounded x-large dark>Submit</v-btn></p>
+            <p class="mt-10 v-bottom-black-bar">
+                <v-btn color="#fa992e" width="200" depressed rounded x-large dark>Submit</v-btn>
+            </p>
         </v-sheet>
     </v-container>
 </template>

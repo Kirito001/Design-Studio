@@ -10,7 +10,7 @@
                     <a class="white--text text-h6 font-weight-regular text-decoration-none" href="#">{{ item.target }}</a>
                 </v-sheet>
             </v-col>
-            <v-col class="d-flex justify-end">
+            <v-col class="d-flex justify-end v-bottom-black-bar">
                 <v-btn text dark>See More<v-icon right>mdi-arrow-right-bold</v-icon></v-btn>
             </v-col>
         </v-row>
