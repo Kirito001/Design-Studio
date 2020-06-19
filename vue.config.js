@@ -1,5 +1,5 @@
 module.exports = {
-	publicPath: './',
+	publicPath: '/Design-Studio/',
 	outputDir: 'dist',
 	assetsDir: 'assets',
 	productionSourceMap: false,
