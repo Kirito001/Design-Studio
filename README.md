@@ -1,4 +1,4 @@
-## 预览地址
+## Preview
 [https://kirito001.github.io/Design-Studio/dist/#/home](https://kirito001.github.io/Design-Studio/dist/#/home)
 
 # design-studio
