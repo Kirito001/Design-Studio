@@ -1,4 +1,5 @@
-![在线预览](https://kirito001.github.io/Design-Studio/dist/#/home)
+## 预览地址
+[https://kirito001.github.io/Design-Studio/dist/#/home](https://kirito001.github.io/Design-Studio/dist/#/home)
 
 # design-studio
 
